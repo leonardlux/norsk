@@ -1,0 +1,6253 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "7395555a-50d9-11ee-a345-5d5eb8024e89",
+    "deck_config_uuid": "73958f7a-50d9-11ee-a345-5d5eb8024e89",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "73958f7a-50d9-11ee-a345-5d5eb8024e89",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 30
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 300
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 20,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Norsk",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (and reversed card)",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "i nord",
+                "in the north"
+            ],
+            "guid": "Edn*96PfG:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i sør",
+                "in the south"
+            ],
+            "guid": "JOUS)l>KgO",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i vest&nbsp;",
+                "in the west"
+            ],
+            "guid": "Lv>+Il@JAG",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i øst",
+                "in the east [Ger.: Osten]"
+            ],
+            "guid": "MDC8?zS-ci",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sopp&nbsp;",
+                "a mushroom"
+            ],
+            "guid": "ku:XI~_rm$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "om høsten",
+                "in autumn"
+            ],
+            "guid": "Opp]WQhzeL",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vanlig",
+                "usual"
+            ],
+            "guid": "m@/T{{=qFE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å hate",
+                "to hate"
+            ],
+            "guid": "K*AO0|HI,H",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en fysikk",
+                "physics"
+            ],
+            "guid": "pShrzM|Z88",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en stripe",
+                "stripe"
+            ],
+            "guid": "y[2>T|-PI1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stripete",
+                "striped"
+            ],
+            "guid": "BJcIUx]brI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sykkel; mange sykler",
+                "bicycle"
+            ],
+            "guid": "Phs]W3U/TT",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kort",
+                "short"
+            ],
+            "guid": "rmQ|fcd1H6",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rutete",
+                "chequered"
+            ],
+            "guid": "c66!cE>3Qi",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gammeldags",
+                "oldfashioned"
+            ],
+            "guid": "p9vtLb33!P",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "modern",
+                "modern"
+            ],
+            "guid": "s/h*AI1AuH",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å rydde",
+                "to clean/to tidy up"
+            ],
+            "guid": "jFk}vp{N)e",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sove&nbsp;",
+                "to sleep"
+            ],
+            "guid": "H6|i.mB,(<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mer",
+                "more [Ger.: mehr]"
+            ],
+            "guid": "O>Nt$TD(9M",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å handle",
+                "to do the shopping"
+            ],
+            "guid": "l5Vi[r?ana",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "etter",
+                "after"
+            ],
+            "guid": "l&Qx>~YO8K",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i år",
+                "this year"
+            ],
+            "guid": "Kwu-p=8G^7",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "senere&nbsp;",
+                "later"
+            ],
+            "guid": "G(YuA2n}Aq",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å vaske vindu",
+                "to clean the window"
+            ],
+            "guid": "qBRY_Rh1zF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i morgen",
+                "tomorrow"
+            ],
+            "guid": "j?mly0=;(G",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "før du dør",
+                "before you die"
+            ],
+            "guid": "iW&JHRgGSF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å stå opp",
+                "to get up"
+            ],
+            "guid": "l]y.LDrGER",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tidlig",
+                "early"
+            ],
+            "guid": "eS(5:%L$u)",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "for tidlig",
+                "too early"
+            ],
+            "guid": "p$h$LY=h49",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et møte",
+                "meeting"
+            ],
+            "guid": "B#Gy&#db%W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "presis",
+                "on time"
+            ],
+            "guid": "AOtphjib4W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å få&nbsp;",
+                "to get (as in \"can I get a piece of paper\")"
+            ],
+            "guid": "EZW-slM?}h",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å drå&nbsp;",
+                "to leave, to move"
+            ],
+            "guid": "x5,<>i>JA?",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å slappe av&nbsp;",
+                "to rest"
+            ],
+            "guid": "i!qn6Eo$cK",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å ta&nbsp;",
+                "to take"
+            ],
+            "guid": "s@J+tfKMIL",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kniv",
+                "knife&nbsp;"
+            ],
+            "guid": "D@$LwGq,JD",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sulten",
+                "hungry"
+            ],
+            "guid": "JW5J_)7gLm",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "full",
+                "drunk"
+            ],
+            "guid": "M9o2,wb{1y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en meny&nbsp;",
+                "menu"
+            ],
+            "guid": "jS$v^TruXt",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en servitør",
+                "waiter"
+            ],
+            "guid": "CSh<}w|YA2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å hjelpe",
+                "to help"
+            ],
+            "guid": "k~hi{~ybor",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en vesker",
+                "a bag"
+            ],
+            "guid": "NBN{_*^>iV",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å ligge&nbsp;",
+                "to lay (position)"
+            ],
+            "guid": "b44qI`Uh;J",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å legge&nbsp;",
+                "to put/to lay down (move)"
+            ],
+            "guid": "iyng}lnJ?E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sette&nbsp;",
+                "to sit down"
+            ],
+            "guid": "IR}ec5)qb5",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sitte",
+                "to sit"
+            ],
+            "guid": "MXl<PPhE;h",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skje",
+                "a spoon"
+            ],
+            "guid": "uBMpt=!-ww",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "uten",
+                "without"
+            ],
+            "guid": "F+?zSlS}mE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bli med / å bli med [noen] på [noe]",
+                "to take part / to join [sb.] for [sth.]"
+            ],
+            "guid": "lRE)Ji/5F%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i dag",
+                "today"
+            ],
+            "guid": "g4l)(+)&ks",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hverandre",
+                "each other"
+            ],
+            "guid": "zK]+C~xH=7",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "igjen",
+                "again"
+            ],
+            "guid": "pu?!v%L0|F",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en venn",
+                "a friend"
+            ],
+            "guid": "C1~;JCc;-q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg har lyst på ...",
+                "I would like to have ..."
+            ],
+            "guid": "E[1*oL/~ml",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å gå på sopptur&nbsp;",
+                "to go on a mushroom tour/ to gather mushrooms"
+            ],
+            "guid": "lnE*4Y,_N0",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg er studerer...",
+                "I study ..."
+            ],
+            "guid": "QbRmm]9St.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg tar en mastergrad i ...",
+                "I am doing a master's degree in ..."
+            ],
+            "guid": "h2$r~rav68",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg er Phd-student. Jeg skriver doktorgrad i ...",
+                "I am a PhD student. I am writing my doctoral thesis in ..."
+            ],
+            "guid": "fmfNUsK$I6",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg tar en doktorgrad...",
+                "I am doing an PhD"
+            ],
+            "guid": "G&r]`el}yn",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg har en post-doc stilling ved institutt for ...",
+                "I have a post-doc position at the Department of ..."
+            ],
+            "guid": "Iq`)~q[{z6",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva gjør du i Norge?",
+                "What are you doing in Norway?"
+            ],
+            "guid": "rtg42JmnN%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvor jobber du på NTNU?",
+                "Where do you work at the NTNU?"
+            ],
+            "guid": "IAr-WB(74E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva studerer du?",
+                "What are you studying?"
+            ],
+            "guid": "uzg1|:39OA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L06"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en bil",
+                "a car"
+            ],
+            "guid": "Q8t7rG=,ra",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en el-bin",
+                "a electric vehicle"
+            ],
+            "guid": "M$P)WTE>.y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stressende",
+                "stressful"
+            ],
+            "guid": "v)cIa7JK5-",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rar(t)? ?When with t?",
+                "weird"
+            ],
+            "guid": "D8a[e>.*Ga",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05",
+                "quest"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stille",
+                "silent"
+            ],
+            "guid": "s%/rBPSiV:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "miljøvennlig",
+                "enviromentally friendly"
+            ],
+            "guid": "nL02U^EmH}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å prøve",
+                "to try"
+            ],
+            "guid": "F;f4vuzx`1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ulempe",
+                "a disadvantage"
+            ],
+            "guid": "I)8_O|]]9~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å lade",
+                "to charge [Ger.: laden]"
+            ],
+            "guid": "bSry,Yza{_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en rekkevidee",
+                "range [Ger. Reichweite]"
+            ],
+            "guid": "H#6iC&r&`Y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "men",
+                "but"
+            ],
+            "guid": "x@B`(3p,K}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;parkeringsplass",
+                "a parking lot [Ger.: Parkplatz]"
+            ],
+            "guid": "Q=u)T*JS3o",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vanskelig",
+                "difficult"
+            ],
+            "guid": "u}0-dPni6|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "klær [pl.]",
+                "clothes"
+            ],
+            "guid": "s~(rZ|GQ%t",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et klesskap&nbsp;",
+                "a waderobe"
+            ],
+            "guid": "wi-).XgL6n",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en ull",
+                "wool"
+            ],
+            "guid": "CIs55b(BA+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en bukse",
+                "trousers"
+            ],
+            "guid": "eVylwRFu?%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "olabukse/dongeribukse/jeans",
+                "Jeans"
+            ],
+            "guid": "s<_tpvHo@{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sokke",
+                "a sock"
+            ],
+            "guid": "FpNJGp6htj",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sokker [pl]",
+                "socks"
+            ],
+            "guid": "r64)Lp0[!{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "av og til",
+                "sometimes"
+            ],
+            "guid": "QV=CIobR{1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "quest"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvorfor",
+                "why/what for&nbsp;"
+            ],
+            "guid": "uvBt-*W-!e",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg er ... år.",
+                "I am ... old."
+            ],
+            "guid": "G(vib,VhT;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et førerkort",
+                "drivering license [Ger.: Führerschein]"
+            ],
+            "guid": "utb)/Xp,aU",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dårlig",
+                "bad"
+            ],
+            "guid": "M>{d}bt4~y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å ha&nbsp;",
+                "to have/ to have got"
+            ],
+            "guid": "jz)^=c%E]o",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva har du på deg?",
+                "What are you wearing?"
+            ],
+            "guid": "u=:[xg>KBu",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "må",
+                "have to/must"
+            ],
+            "guid": "ipZdA0<{Nc",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "modalverb",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kan",
+                "able to/can"
+            ],
+            "guid": "B&#sCBBInk",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "modalverb",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vil",
+                "want/would like to"
+            ],
+            "guid": "Hd@{2D{nJ%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "modalverb",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "skal",
+                "shall/going to/should"
+            ],
+            "guid": "M(~/kU}+L2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "modalverb",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bør",
+                "should (advice)"
+            ],
+            "guid": "tlz~l/TM+&",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "modalverb",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvit",
+                "white"
+            ],
+            "guid": "D_R(=JAcmA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lyseblå",
+                "light blue"
+            ],
+            "guid": "mvp(D1{p=|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kremhvit",
+                "cream white"
+            ],
+            "guid": "w[$#`~WWy_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "blå",
+                "blue"
+            ],
+            "guid": "v,<BO:?w2V",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gul",
+                "yellow"
+            ],
+            "guid": "Nn]:]!}&`X",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "turkis",
+                "<table><tbody><tr><td></td><td>turquoise [Ger.: türkis]<br></td></tr></tbody></table>"
+            ],
+            "guid": "OO!02)J4*_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "oransje",
+                "orange"
+            ],
+            "guid": "x!Teg;ap^n",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "grønn",
+                "green"
+            ],
+            "guid": "pS_:wsz2j+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rød",
+                "red"
+            ],
+            "guid": "ObcMy{-oOY",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lysegrønn",
+                "light green"
+            ],
+            "guid": "`3NilrW>1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vinrød",
+                "wine-red"
+            ],
+            "guid": "p=I=+(Q!_`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "brun",
+                "brown"
+            ],
+            "guid": "3Fmyp[R%4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rosa",
+                "pink [Ger.: rosa]"
+            ],
+            "guid": "hH`=NP)bZf",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "grå",
+                "grey [Ger.: grau]"
+            ],
+            "guid": "hxKPz-.zTy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lilla",
+                "purple [Ger.: lilla]"
+            ],
+            "guid": "t~A~di$@1+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "svart",
+                "black [Ger.: schwarz]"
+            ],
+            "guid": "F4K6DxI!!2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "color",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en mann",
+                "a man [Ger.: ein Mann]"
+            ],
+            "guid": "u,daKP5aH,",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en dame",
+                "a woman [Ger.: eine Frau/Dame]"
+            ],
+            "guid": "I-*N$O8G9K",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et barn",
+                "a child&nbsp;"
+            ],
+            "guid": "mqqks!!j=V",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et garn",
+                "yarn [Ger.: Der Garn]"
+            ],
+            "guid": "NjcOtM3u;i",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en overtrekksbukse",
+                "overtrousers"
+            ],
+            "guid": "fF]`FgRYo`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en boblejakke",
+                "puffer jacket"
+            ],
+            "guid": "AS0yuS1at#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en jakke",
+                "jacket"
+            ],
+            "guid": "z@2-{J&Qo}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ullgenser",
+                "wool sweater"
+            ],
+            "guid": "QyOb7DDve;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ulltrøye",
+                "wool undergarments (pullover)"
+            ],
+            "guid": "Kp&U>mF3v}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en stillongs",
+                "long underwear trousers"
+            ],
+            "guid": "H!9P+.Tl+l",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en pysjamas&nbsp;",
+                "pyjamas"
+            ],
+            "guid": "dU#M:O<NpQ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en nattkjole",
+                "nightdress"
+            ],
+            "guid": "Q+U(<${(T[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en lue",
+                "a cap [Ger.: Mütze]"
+            ],
+            "guid": "gbZqX%;DIy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skjerf",
+                "a scarf"
+            ],
+            "guid": "z?$BMO@fSC",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hals",
+                "[Ger.: Halstuch]"
+            ],
+            "guid": "C^?;${[zF=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en vanter",
+                "glove"
+            ],
+            "guid": "H+0(kzxaZ~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "votter [pl.]",
+                "gloves without fingers [Ger.: Fäustlinge]"
+            ],
+            "guid": "OrO;:goKnE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en vinstersko",
+                "a winter boot [Ger. Winter Schuh]"
+            ],
+            "guid": "sa*M)0JX1o",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skisko",
+                "a ski boot [Ger.: Schnee Schuh! kein Ski Schuh]"
+            ],
+            "guid": "JU?h*Pqt!y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skøyte",
+                "skate [Ger.: Schlittschuh]"
+            ],
+            "guid": "hw)X;ObQ0W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en regnjakke",
+                "a rainjacket [Ger.: Regenjacke]"
+            ],
+            "guid": "wjCWLlGl*<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gummistøvler [pl.] [singular: gummistøv<u><b>el</b></u>]",
+                "gumboot [Ger.: Gummistiefel]"
+            ],
+            "guid": "hf`O2Z5)m#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en støvel",
+                "a boot [Ger.: ein Stiefel]"
+            ],
+            "guid": "hts!O4Z|y@",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en paraply&nbsp;",
+                "umbrella [Ger.: Regenschirm]"
+            ],
+            "guid": "bGB[/|x9E:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kaps",
+                "a cap&nbsp;"
+            ],
+            "guid": "ii/nlSjuv^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en t-skjorte",
+                "a t-shirt"
+            ],
+            "guid": "ui>?ADXjH}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en shorts",
+                "shorts"
+            ],
+            "guid": "ntI6YxYhYC",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tursku",
+                "hikingboots"
+            ],
+            "guid": "q}p%U{nFm)",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en joggesko",
+                "jogging shoe"
+            ],
+            "guid": "JnS(M/jK%g",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skjørt",
+                "skirt"
+            ],
+            "guid": "y8jgi[&Xii",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en genser",
+                "sweater"
+            ],
+            "guid": "n|z33Jsvp_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skjorte",
+                "shirt"
+            ],
+            "guid": "l&,gmk&Fc!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tights",
+                "tights"
+            ],
+            "guid": "J5>v%3M`u`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en bunads",
+                "tradional dress uniform"
+            ],
+            "guid": "u@c5qa${Cs",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjole",
+                "a dress"
+            ],
+            "guid": "O#C{,}mLET",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en dress",
+                "a suit"
+            ],
+            "guid": "ql}|IL$GNE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et slips",
+                "a tie"
+            ],
+            "guid": "r6dMJ1-`p;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sløyfe",
+                "a bow/bow tie"
+            ],
+            "guid": "l?q--]dI-W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et belte",
+                "a belt"
+            ],
+            "guid": "zdYa`phOm!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sokker [pl.]",
+                "socks&nbsp;"
+            ],
+            "guid": "ET3z7F:#n4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sokk",
+                "a sock"
+            ],
+            "guid": "l$6pC4^Z2A",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en truse",
+                "a panty"
+            ],
+            "guid": "h.6n.=_J@&",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en boksershorts",
+                "a boxershort"
+            ],
+            "guid": "nSEFW.pJ`$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en pannebånd",
+                "a headband"
+            ],
+            "guid": "y:~7p=J]RX",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "clothes",
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvor gammel er du?",
+                "How old are you?"
+            ],
+            "guid": "L;l:{urR&6",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en blyant&nbsp;",
+                "a pencil [Ger.: ein Bleistift]"
+            ],
+            "guid": "8]YhZ8`h",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skilt",
+                "a sign"
+            ],
+            "guid": "M-5.#HHTyt",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvor mange...?",
+                "How many...?"
+            ],
+            "guid": "K&G4P*dZ$x",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å fortsette",
+                "to continue [Ger.: fortsetzen]"
+            ],
+            "guid": "BEdCNL>D0`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en rev",
+                "a fox"
+            ],
+            "guid": "lv!9G9P6&W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å trenger",
+                "need (as in \"do you need?\")"
+            ],
+            "guid": "P:$(iEC:4$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å elske",
+                "to love"
+            ],
+            "guid": "Ni7dMF~K1n",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "snart",
+                "soon"
+            ],
+            "guid": "u:3i?2kln{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i natt",
+                "tonight"
+            ],
+            "guid": "oJhGQX9n[=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i kveld",
+                "this evening"
+            ],
+            "guid": "JS=SA~ezNM",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et besøk",
+                "a visit"
+            ],
+            "guid": "iJ]zEqKbAi",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bare hyggelig!",
+                "You're welcome!"
+            ],
+            "guid": "Kx|~J8{/z$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å rydde&nbsp;",
+                "to clean&nbsp;"
+            ],
+            "guid": "r9&LxyiES:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lykke til!",
+                "Good luck!"
+            ],
+            "guid": "pE>eg=0MOb",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en fryser",
+                "a freezer"
+            ],
+            "guid": "dx2X[N^yS]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kjøleskap",
+                "a fridge [Ger.: ein Kühlschrank]"
+            ],
+            "guid": "Jfdka.+ro[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å besøke&nbsp;",
+                "to visit sth."
+            ],
+            "guid": "jjlT)8S?da",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å få besøke",
+                "to get visitors"
+            ],
+            "guid": "PUMN)N4fr)",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hund",
+                "a dog [Ger.: ein Hund]"
+            ],
+            "guid": "o@6JQ.1sW[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Savner du dem?",
+                "Do you miss him?&nbsp;"
+            ],
+            "guid": "PYal_70Uig",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en mandag",
+                "a monday"
+            ],
+            "guid": "j<cjx:uF9w",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tirsday",
+                "a tuesday"
+            ],
+            "guid": "j3{e,*1Hqh",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en onsdag",
+                "a wednesday"
+            ],
+            "guid": "CTk>=U*T@<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en torsdag",
+                "a thursday"
+            ],
+            "guid": "n@kP%4TrnY",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en fredag",
+                "a friday"
+            ],
+            "guid": "o)xU{ty2/q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en lørdag",
+                "a saturday"
+            ],
+            "guid": "r!H{@kw_rH",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sønday",
+                "a sunday"
+            ],
+            "guid": "Q0&c4~T}n%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en helg",
+                "a weekend"
+            ],
+            "guid": "n.=85CNRfN",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "weekdays"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en favoritt",
+                "a favoritt"
+            ],
+            "guid": "boC%<b[NR:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et bord",
+                "a table"
+            ],
+            "guid": "lUj-R{C{^z",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en pult",
+                "a desk"
+            ],
+            "guid": "e@n*IZ2<{1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gift",
+                "married"
+            ],
+            "guid": "tu6D^+.f:F",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å møte",
+                "to meet"
+            ],
+            "guid": "S%.AS,X2:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tavle",
+                "a blackboard [Ger.: eine Tafel]"
+            ],
+            "guid": "z6?d<}{#x5",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en stol",
+                "a chair [Ger.: ein Stuhl]"
+            ],
+            "guid": "k}&b^KeC/1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en linjal",
+                "a ruler [Ger.: ein Lineal]"
+            ],
+            "guid": "Ac{)oh8~oC",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en pen",
+                "a pen"
+            ],
+            "guid": "BVO<*9Ur~)",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et ark",
+                "a sheet of paper"
+            ],
+            "guid": "j4@{hat_JE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en PC",
+                "a PC"
+            ],
+            "guid": "rf[mq1H[C[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en datamaskin",
+                "a computer"
+            ],
+            "guid": "DY}D+_7xmE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kritt",
+                "chalk [Ger.: Kreide]"
+            ],
+            "guid": "nm&:LGhnZ}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en flaske øl",
+                "a bottle of beer [Ger.: eine Flasche Bier]"
+            ],
+            "guid": "mG47/)kI}2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en vask",
+                "a sink [Ger.: ein Waschbecken]"
+            ],
+            "guid": "DB0WVfaD8s",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en dør",
+                "a door"
+            ],
+            "guid": "d|4Yyn&Ee/",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en lampe",
+                "a lamp [Ger.: eine Lampe]"
+            ],
+            "guid": "d%C60n%0S!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skap",
+                "a closet/cabinet/cupboard [Ger.: Schrank]"
+            ],
+            "guid": "iX(UqQ0IYi",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en klokke",
+                "a clock"
+            ],
+            "guid": "E,R~%=#{FX",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et vindu",
+                "a window"
+            ],
+            "guid": "QSoNP6(ORi",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "for mange",
+                "too many"
+            ],
+            "guid": "cU+oMOVRp#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "omtrent",
+                "about/approxiamtely"
+            ],
+            "guid": "rcH>PpL)U$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bare",
+                "only"
+            ],
+            "guid": "C:W-DsT&pS",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en gjenstand",
+                "a item [Ger.: ein Gegenstand]"
+            ],
+            "guid": "mXbS0RiZ#7",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jeg &amp; meg",
+                "I&nbsp; &amp; me [ich &amp; mich]"
+            ],
+            "guid": "VPNPWQKQ=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "du &amp; deg",
+                "you &amp; yours [du &amp; deins]"
+            ],
+            "guid": "JJdDq$n/@U",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "han &amp; ham",
+                "he &amp; him"
+            ],
+            "guid": "jQ/T]3fB^.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "den&nbsp;",
+                "this one"
+            ],
+            "guid": "il+o2Ci2xp",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "det",
+                "it/that"
+            ],
+            "guid": "PV1*J20*R.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hun &amp; henne",
+                "she & her"
+            ],
+            "guid": "tG]$/k4v&|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dere",
+                "you (pl.) [ihr &amp; euch]"
+            ],
+            "guid": "z2-s9!95(L",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "de &amp; dem",
+                "they &amp; them [sie &amp; ihnen/denen]"
+            ],
+            "guid": "HjZS5$,25L",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en student",
+                "a student"
+            ],
+            "guid": "xPF.xNNIu[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hyggelig å hilse på deg!",
+                "Nice to meet/greet you!"
+            ],
+            "guid": "z0m+ra+W_D",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ulik",
+                "different"
+            ],
+            "guid": "e%nymWK0%u",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ganske bra",
+                "quite good"
+            ],
+            "guid": "DBZ?&s:W?q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva betyr det?",
+                "What does it mean? [Ger.: Was bedeutet das?]"
+            ],
+            "guid": "m6s+(mwN[r",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å tro",
+                "to believe"
+            ],
+            "guid": "JB@o74upKD",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "også&nbsp;",
+                "also/too"
+            ],
+            "guid": "Pudt}*!pcZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hovestad",
+                "a capital (city) [Ger.: Hauptstadt]"
+            ],
+            "guid": "wK1#J7I-Qv",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva heter [du, etc.]?",
+                "What is your name? [Ger.: Wie heißt du?]"
+            ],
+            "guid": "I[$}Xhw4`/",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvor kommer [du, etc.] fra?",
+                "Where are [you, etc.] from? [Ger.: Wo kommst du her?]"
+            ],
+            "guid": "zbH=2MWFsz",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvelke språk snakker [du, etc.]?",
+                "Which languages do you speak? [Ger.: Welche Sprachen sprichst du?]"
+            ],
+            "guid": "E(UfQU_Fh+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å være [er, var]",
+                "to be&nbsp;"
+            ],
+            "guid": "IY)k.I}Jc#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kanskje",
+                "maybe"
+            ],
+            "guid": "y5S2Bv)`E<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Han bor [ikke] på Moholt.",
+                "He lives[/does not live] in Moholt."
+            ],
+            "guid": "A{qL3c:YN?",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å lære",
+                "to learn&nbsp;"
+            ],
+            "guid": "yJV{z?Jl2*",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å forstå",
+                "to understand [Ger.: zu verstehen]"
+            ],
+            "guid": "da,i5^ssFR",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mye",
+                "much"
+            ],
+            "guid": "MlFdm,<!`)",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å spille",
+                "to play [Ger.: spielen]"
+            ],
+            "guid": "bm=f+O[)lo",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å synge",
+                "to sing"
+            ],
+            "guid": "i.dVlmu}(B",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å høre",
+                "to hear [Ger.: hören]"
+            ],
+            "guid": "$$oM/e[.9",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å danse",
+                "to dance"
+            ],
+            "guid": "O_7nL_?Mi3",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å lage mat",
+                "to cook"
+            ],
+            "guid": "E{0sTnx%7.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a lese",
+                "to read [Ger.: lesen]"
+            ],
+            "guid": "NXSSPf0Lza",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å svømme",
+                "to swim"
+            ],
+            "guid": "IMr&ANy<oO",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a sykel",
+                "to cycle"
+            ],
+            "guid": "g7y.EWoxKv",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å trene",
+                "to train"
+            ],
+            "guid": "d06WqvfRqc",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sove",
+                "to sleep"
+            ],
+            "guid": "rp>claObeS",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a tegne",
+                "to draw"
+            ],
+            "guid": "KFY6ebP@R0",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å renge",
+                "to calculate or to rain"
+            ],
+            "guid": "Lcgk[bHsMA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å se",
+                "to see&nbsp;"
+            ],
+            "guid": "F1Ed$6*Er/",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å gå på tur[/ski]",
+                "to hike/ to go skiing"
+            ],
+            "guid": "uiDk[r;@?w",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å strikke&nbsp;",
+                "to knit [Ger.: stricken]"
+            ],
+            "guid": "h=7pjY>IcN",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bake en kake",
+                "to bake a cake&nbsp;"
+            ],
+            "guid": "cn(Wjr.jSa",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å fiske",
+                "to fish"
+            ],
+            "guid": "d$p6mB>SYA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a skrive",
+                "to write [Ger.: schreiben]"
+            ],
+            "guid": "CH(5}LhV#z",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å programmere",
+                "to programm"
+            ],
+            "guid": "P0KZV><@cV",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å like",
+                "to like"
+            ],
+            "guid": "kbOK?%_}]%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å spise",
+                "to eat&nbsp;"
+            ],
+            "guid": "eh`y}]/N)V",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å dirkke",
+                "to drink"
+            ],
+            "guid": "cu<]]}}cO.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å forske",
+                "to research [Ger.: zu forschen]"
+            ],
+            "guid": "nEBvyl@_.s",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva liker du å gjøre?",
+                "What do you like to do?"
+            ],
+            "guid": "Pc%Pa3db2q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et spørsmål",
+                "a question"
+            ],
+            "guid": "lQTP@j|/(~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "morsom [spoken: mursom]",
+                "funny"
+            ],
+            "guid": "yqNP*:.;Gz",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bo",
+                "to live [in]/ to reside"
+            ],
+            "guid": "oLL]Fd;j{#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å snakke",
+                "to speak/to talk"
+            ],
+            "guid": "lp%Tge!%_%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et null",
+                "0"
+            ],
+            "guid": "f?.@N<@.F%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;",
+                "1"
+            ],
+            "guid": "FLo>KTC?[g",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "to",
+                "2"
+            ],
+            "guid": "H7f]7n+r:`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tre",
+                "3"
+            ],
+            "guid": "h0|/b;![l",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fire",
+                "4"
+            ],
+            "guid": "qsOXNI{0>|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fem",
+                "5"
+            ],
+            "guid": "BQA(<Z)B:m",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "seks",
+                "6"
+            ],
+            "guid": "vkuM^u3A&-",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sju",
+                "7"
+            ],
+            "guid": "Q,$1,TE!/j",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "åtte",
+                "8"
+            ],
+            "guid": "zS.(1!??,k",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ni",
+                "9"
+            ],
+            "guid": "ybRo06RcOQ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ti",
+                "10"
+            ],
+            "guid": "x#kv~r7>R-",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "elleve [spoken: \"ellve\"]",
+                "11"
+            ],
+            "guid": "O?c{mulQ$y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tolv [spoken: \"tol\"]",
+                "12"
+            ],
+            "guid": "FM]6?2][a$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tretten",
+                "13"
+            ],
+            "guid": "A|e`_*#HvU",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "femten",
+                "15"
+            ],
+            "guid": "O~|ez#2-`c",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "seksten",
+                "16"
+            ],
+            "guid": "MdM~~O8-cs",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sytten [spoken: \"citen\"]",
+                "17"
+            ],
+            "guid": "zelh=StTw^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "atten [not \"åtten\"!]",
+                "18"
+            ],
+            "guid": "v$;kF,/ZAE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nitten",
+                "19"
+            ],
+            "guid": "q7v#Z#=;}j",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "20",
+                "tjue"
+            ],
+            "guid": "eQ`x7MFGEm",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjueen",
+                "21"
+            ],
+            "guid": "xLU>N[f{0_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjueto",
+                "22"
+            ],
+            "guid": "BJu8-Y#AuO",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjuetre",
+                "23"
+            ],
+            "guid": "mK0KL%c{Ae",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjuefire",
+                "24"
+            ],
+            "guid": "r%_jG_wx$_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjuefem",
+                "25"
+            ],
+            "guid": "o9tvLym4k8",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjueseks",
+                "26"
+            ],
+            "guid": "b^:Io=6aw=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjuesju",
+                "27"
+            ],
+            "guid": "AEzwBv.cMo",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjueåtte&nbsp;",
+                "28"
+            ],
+            "guid": "b7&SrOuO]+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjueni",
+                "29"
+            ],
+            "guid": "IKZy(?9Ip#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tretti",
+                "30"
+            ],
+            "guid": "O^>Z*rjfG=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "forti",
+                "40"
+            ],
+            "guid": "pocSrTncD.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "femti",
+                "50"
+            ],
+            "guid": "D?y$aPx>ZP",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "seksti",
+                "60"
+            ],
+            "guid": "B@BD;1Zsd=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sytti",
+                "70"
+            ],
+            "guid": "C(8HRjZS,$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "åtti",
+                "80"
+            ],
+            "guid": "HlpK3U4z9b",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nitti",
+                "90"
+            ],
+            "guid": "PY3*C<;C0+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hundre",
+                "100"
+            ],
+            "guid": "Cig`M@`x;:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ett hundre",
+                "100"
+            ],
+            "guid": "t^boA}*8=B",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "200",
+                "tu hundre"
+            ],
+            "guid": "Nfkk0bBAb,",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1000",
+                "tusen"
+            ],
+            "guid": "c2R3[o:.$I",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvilke",
+                "which"
+            ],
+            "guid": "oqs?:4^r~G",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvordan",
+                "how"
+            ],
+            "guid": "dL~GavD~-E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "når",
+                "when"
+            ],
+            "guid": "kGYF8$&+q:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "noe",
+                "something"
+            ],
+            "guid": "N-%0HV$=8%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hva",
+                "what"
+            ],
+            "guid": "fmzqDw3D~=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvor",
+                "where"
+            ],
+            "guid": "Kyi%`DC/sF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å stå",
+                "to stand"
+            ],
+            "guid": "CwBQ}e)UZ3",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvordan står det til?",
+                "How's it going?"
+            ],
+            "guid": "oh>No:&R-Q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvordan har du det?",
+                "How are you?"
+            ],
+            "guid": "lZh@Wi;1q_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en måned",
+                "a month"
+            ],
+            "guid": "Gk`zv%?ybd",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kaffee",
+                "a coffee"
+            ],
+            "guid": "E(jOq<|N^R",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et hjem&nbsp;",
+                "the home"
+            ],
+            "guid": "b6b$Q?F#={",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hjem",
+                "at home"
+            ],
+            "guid": "bc#nD7_f@(",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en butikk",
+                "a shop"
+            ],
+            "guid": "uqUqQw8-~f",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kjoper",
+                "to buy"
+            ],
+            "guid": "qS{mF)ClFD",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å henge",
+                "to hang"
+            ],
+            "guid": "EcWgL;3(`>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et tak",
+                "a ceiling/roof"
+            ],
+            "guid": "z0)dg+ol&8",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å montere",
+                "to mount"
+            ],
+            "guid": "B9{U$#dPc}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en vegg",
+                "a wall"
+            ],
+            "guid": "k$VolbO/$Z",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et lys",
+                "a light"
+            ],
+            "guid": "mJPb-2{*~|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lys",
+                "bright"
+            ],
+            "guid": "FBoo1Jha$G",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en katt",
+                "a cat"
+            ],
+            "guid": "mBM:7xvGT5",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "andre",
+                "other [Ger.: andere]"
+            ],
+            "guid": "KUT|i:rwI1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skog",
+                "a forrest"
+            ],
+            "guid": "jupIlyI5t!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å treffe",
+                "to meet [Ger.: treffen]"
+            ],
+            "guid": "By/@w4|#;v",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "veldig",
+                "very"
+            ],
+            "guid": "LejqDNZ6+Y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "søte",
+                "sweet"
+            ],
+            "guid": "80[D.Z=}b",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et entall",
+                "singular"
+            ],
+            "guid": "j?v4b3PVPd",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et flertall",
+                "plural"
+            ],
+            "guid": "lrM:_7DvO*",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ubestemt form",
+                "indefinit form"
+            ],
+            "guid": "e}jk:OsB%X",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bestemt form",
+                "definit form"
+            ],
+            "guid": "kk$e(A<ET;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "regelmessig",
+                "regular"
+            ],
+            "guid": "F]iTTbYnms",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "uregelmessig",
+                "irregular"
+            ],
+            "guid": "oa1a1<Hb`V",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et verb",
+                "a verb"
+            ],
+            "guid": "iZ~f.$_#yt",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hjepleverb",
+                "auxiliary verb"
+            ],
+            "guid": "qOKu67@*0{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bøyd",
+                "conjugated"
+            ],
+            "guid": "s]=pTha]m-",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "presens - nåtid",
+                "present"
+            ],
+            "guid": "GU?7}}mc:c",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "preteritum - fortid",
+                "past"
+            ],
+            "guid": "Ht2RU_>KqA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "perfektum - fortid",
+                "past perfect"
+            ],
+            "guid": "GCPrYLH{rr",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et substantiv - et nomen",
+                "a noun"
+            ],
+            "guid": "K?BxUg;naD",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ubestemt artikkel",
+                "indefinit article"
+            ],
+            "guid": "baCN}}@;dL",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "(bestemt) artikkel",
+                "defninit article"
+            ],
+            "guid": "y{V<@~h]f%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et unntak",
+                "exception"
+            ],
+            "guid": "n:$Z_m,hs[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "litt&nbsp;",
+                "a bit"
+            ],
+            "guid": "F(PS:xB6@C",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en svigermor",
+                "mother-in-law [Ger.: Schwiegermutter]"
+            ],
+            "guid": "N?W5@,O]X9",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ofte",
+                "often, frequently"
+            ],
+            "guid": "iGUHb8Ld-%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et brød",
+                "a bread [Brot]"
+            ],
+            "guid": "H@y=-.B^%`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "og&nbsp;",
+                "and [und]"
+            ],
+            "guid": "HTs}S|R*0S",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et egg",
+                "egg"
+            ],
+            "guid": "vM<dl)BjI{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skole",
+                "school"
+            ],
+            "guid": "s<y9E`B@c$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en melk",
+                "a milk"
+            ],
+            "guid": "o}e;!E5<?`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hver",
+                "every"
+            ],
+            "guid": "qSqq9&OuBF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en dag",
+                "a day"
+            ],
+            "guid": "G&CSioZDQr",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en konsert",
+                "a concert"
+            ],
+            "guid": "Iol*|w@!fI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en fritid",
+                "leisure/freetime"
+            ],
+            "guid": "ees/,UE{+N",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bli med",
+                "to take part"
+            ],
+            "guid": "zNCCv/TrOU",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "I like måte!",
+                "You too!"
+            ],
+            "guid": "ilJ+_t1N2K",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Unnshyld, hva betyr...?",
+                "Excuse me, whate does ... mean?"
+            ],
+            "guid": "OLTO_j_w7!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Det betryr...",
+                "It means...."
+            ],
+            "guid": "faK`H)8%e5",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva med deg?",
+                "How about you?"
+            ],
+            "guid": "EIcxy/=^FF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Takk skal du ha.",
+                "Thank you."
+            ],
+            "guid": "s4hpG9f&&]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Det går bra, takk.",
+                "Fine, thanks."
+            ],
+            "guid": "f*boG/<_?m",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en begynner",
+                "a beginner"
+            ],
+            "guid": "lI{ra4&iy+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "takk",
+                "thanks"
+            ],
+            "guid": "M<]&G,/;H",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "unnskyld",
+                "sorry"
+            ],
+            "guid": "xf=q$1`5Bo",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bety",
+                "to mean"
+            ],
+            "guid": "o~Hm2hIUSM",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a gjøre",
+                "to do"
+            ],
+            "guid": "Oj)b1Ojp/b",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a gå",
+                "to go"
+            ],
+            "guid": "l;9z$,[VFu",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kjekk",
+                "handsome"
+            ],
+            "guid": "q^7=,)KNls",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kjedelig",
+                "boring"
+            ],
+            "guid": "JL;wg%8p?J",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;kjele",
+                "a kettle"
+            ],
+            "guid": "m7!,o2(2z;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å holde kjeft",
+                "to shut up"
+            ],
+            "guid": "PX*v?v<.f2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjeks",
+                "a cookie [Ger.: Keks]"
+            ],
+            "guid": "x7k!0u.;hX",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjeller",
+                "cellar [Ger.: Keller]"
+            ],
+            "guid": "N}ARqMh1kF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en kjempe",
+                "giant"
+            ],
+            "guid": "u?{IhsEonR",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kjenne",
+                "to know [Ger.: kennen]"
+            ],
+            "guid": "hvaF;J/2b4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjeve&nbsp;",
+                "jaw [Ger.: Kiefer]"
+            ],
+            "guid": "ehCxBZ858k",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjæreste",
+                "boy-/girl-friend"
+            ],
+            "guid": "j+MEi.Na^E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kjøtt",
+                "meat"
+            ],
+            "guid": "L-BwSldf*>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et&nbsp;kjøkken",
+                "kitchen"
+            ],
+            "guid": "g+^Vzu<,#L",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kjøpe",
+                "to buy [Ger.: kaufen]"
+            ],
+            "guid": "BAw!RQENQy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kjøper",
+                "buyer [Ger.: Käufer]"
+            ],
+            "guid": "leeavjL7cy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å&nbsp;kjøre",
+                "to drive&nbsp;"
+            ],
+            "guid": "xan`U1;u:a",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kikke",
+                "to see [Ger.: gucken]"
+            ],
+            "guid": "y+S/@Y|c|m",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kinn",
+                "check [Ger.: Wange!]"
+            ],
+            "guid": "ppl_a8mI8f",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kino",
+                "cinema [Ger.: Kino]"
+            ],
+            "guid": "lBph=I{s>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kiosk",
+                "kiosk"
+            ],
+            "guid": "zWoK>T$LAZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en kirke",
+                "church [Ger.: Kirche]"
+            ],
+            "guid": "paLWJ{}9T`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kylling&nbsp;",
+                "a chicken"
+            ],
+            "guid": "AeZ.)7K/],",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kyss",
+                "a kiss [Ger.: Kuss]"
+            ],
+            "guid": "h~FeKlguiW",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kyst",
+                "coast [Ger.: Küste]"
+            ],
+            "guid": "P-4lJuMgpE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tjukk",
+                "fat/thick [Ger.: dick]"
+            ],
+            "guid": "p?+{0)|<3H",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sjef",
+                "a boss [Ger.: Chef]"
+            ],
+            "guid": "EIFmB1R~^+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sjette",
+                "6th [Ger.: der 6. (des Monats)]"
+            ],
+            "guid": "g>)y[Q0=PQ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sjø",
+                "sea/lake&nbsp;"
+            ],
+            "guid": "qx0<!YGkC~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sjokolade",
+                "chocolate [Ger.: Schokolade]"
+            ],
+            "guid": "Gb@MGbC2K#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sjalu",
+                "jealous"
+            ],
+            "guid": "n*7#%VPx%Y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sjåfør",
+                "driver"
+            ],
+            "guid": "yd6A=Hk=|C",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sjanse",
+                "a chance"
+            ],
+            "guid": "h/{_{_R)vJ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en etjase",
+                "floor [Ger.: Etage]"
+            ],
+            "guid": "EcMzJfUcdR",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en stasjon",
+                "a station"
+            ],
+            "guid": "d?C&28h@lh",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en dusj",
+                "shower [Ger. Dusche]"
+            ],
+            "guid": "D;9BoIs1FZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å skje&nbsp;",
+                "to happen"
+            ],
+            "guid": "LY8oaK]*i_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skjegg",
+                "a beard"
+            ],
+            "guid": "t!L*Bq@>TI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skjema",
+                "a schema"
+            ],
+            "guid": "N1K=4xC%pA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skerf",
+                "a scarf"
+            ],
+            "guid": "Lf;i{*|pli",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skjerm",
+                "a screen"
+            ],
+            "guid": "go87;=&Beb",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Skjønner.",
+                "Gotcha."
+            ],
+            "guid": "Rb!dsSef:.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en beskjed",
+                "a message"
+            ],
+            "guid": "d<NHeU_Qr6",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "forskjellig",
+                "different"
+            ],
+            "guid": "qWa!@puYo0",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ski",
+                "a ski"
+            ],
+            "guid": "26scmQ|R{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å skifte",
+                "to change"
+            ],
+            "guid": "M0&PdZyK3y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "skikkelig",
+                "decent/propper"
+            ],
+            "guid": "s)SYJ2<5k~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skilt",
+                "a sign"
+            ],
+            "guid": "cq[q,&{H+b",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en skinke",
+                "ham [Ger.: Schinken]"
+            ],
+            "guid": "ko<~P}+!M8",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skip",
+                "a ship"
+            ],
+            "guid": "pKJ4s.62^U",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skive",
+                "a slice"
+            ],
+            "guid": "s-WGt4WhF{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "skitten",
+                "dirty/filthy"
+            ],
+            "guid": "gACRa[}~GJ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L05"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en sky",
+                "cloud"
+            ],
+            "guid": "HBHlOA^7}Q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skygge",
+                "shade"
+            ],
+            "guid": "xyu0fa{Bpx",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en skyld",
+                "fault/blame [Ger.: Schuld]"
+            ],
+            "guid": "D5N<otd?pF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å skylle",
+                "to wash (dishes) [Ger.: spülen]"
+            ],
+            "guid": "CrDM1sApJ|",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å skynde",
+                "to hurry"
+            ],
+            "guid": "vL{Fsj|=iT",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å skyte",
+                "to shoot [Ger.: schießen]"
+            ],
+            "guid": "I~T(5&V7Ng",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et show",
+                "a show"
+            ],
+            "guid": "IH%aqm7MYX",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hvem",
+                "who"
+            ],
+            "guid": "M^RI!JABHu",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sommen",
+                "togehter [Ger.: zusammen"
+            ],
+            "guid": "Q4y|6c!:61",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en by&nbsp;",
+                "city"
+            ],
+            "guid": "zM$!Oc4B-9",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tur",
+                "a trip"
+            ],
+            "guid": "bC(18h`1A.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "til",
+                "to/for/towards/until"
+            ],
+            "guid": "r;r=@v)HCd",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "prep"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å fortelle",
+                "to tell"
+            ],
+            "guid": "gw|?o[|8A1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et tall",
+                "a number [Ger. Zahl]"
+            ],
+            "guid": "NFNqk*G)/v",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "God helg!",
+                "Have a good weekend!"
+            ],
+            "guid": "B|],[y`#MG",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ha det bra!",
+                "See you!"
+            ],
+            "guid": "nVuUWBW]WZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hvor skal du?",
+                "Where are you going?"
+            ],
+            "guid": "LfA.wRR,U1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg vil gjerne ha....",
+                "I'd like..."
+            ],
+            "guid": "stCf}(bkq_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg har det samme.",
+                "I'll have the same."
+            ],
+            "guid": "iRF1dvYqM.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ha det.",
+                "See you."
+            ],
+            "guid": "C+QPaBo<-<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ikke så verst.",
+                "Not bad."
+            ],
+            "guid": "io[R!v+isI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en eksamen",
+                "an exam"
+            ],
+            "guid": "hFy:{yv<2?",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sikkert",
+                "certainly [Ger.: sicherlich]"
+            ],
+            "guid": "zj1Ck3RBc>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Blir du med?",
+                "Will you join?"
+            ],
+            "guid": "EcU~4&1TZB",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ny",
+                "new"
+            ],
+            "guid": "vD&22NaX9]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "solbrilles [pl.]",
+                "sunglasses"
+            ],
+            "guid": "neB=kN}6Tb",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Å nei!",
+                "Oh no!"
+            ],
+            "guid": "n[p1`5}b<T",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en øl",
+                "a beer"
+            ],
+            "guid": "Q>yfwAu`?E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "etterpå",
+                "afterwards"
+            ],
+            "guid": "DBd@:|Ft7q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en lunsj",
+                "a lunch"
+            ],
+            "guid": "p^`5va=k^[",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "god",
+                "good"
+            ],
+            "guid": "es(!/v!9UT",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "til slutt",
+                "finally [Ger.: zum schluss]"
+            ],
+            "guid": "e<0e.ULV]F",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en veske",
+                "a bag"
+            ],
+            "guid": "QrV.zC7!kV",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hva vil du ha?",
+                "What do you want to have?"
+            ],
+            "guid": "Qo[TE+DZrl",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et hus",
+                "a house&nbsp;"
+            ],
+            "guid": "b3,I]u+.F{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kopp",
+                "a cup"
+            ],
+            "guid": "wG><mHMdZL",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en avis&nbsp;",
+                "a newspaper"
+            ],
+            "guid": "zWD8*~Ls}O",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et glass",
+                "a glass (of water)"
+            ],
+            "guid": "m1>ERzh0|&",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tallerken",
+                "a plate [Ger.: ein Teller]"
+            ],
+            "guid": "t[_^kX5ljB",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en gaffel",
+                "a fork"
+            ],
+            "guid": "NGX`LXod^z",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et språk",
+                "language [Ger.: Sprach]"
+            ],
+            "guid": "O|=I<>dG0+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L02",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å gjøre",
+                "to do"
+            ],
+            "guid": "i?olg4fC)D",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L02",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en lærer",
+                "a teacher [Ger.: Lehrer]"
+            ],
+            "guid": "nGlxa?P*$Q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sekk",
+                "a backpack"
+            ],
+            "guid": ">#}3m,x0_",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å treffe&nbsp;",
+                "to meet&nbsp;"
+            ],
+            "guid": "e@bZc=Q)z}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "neste",
+                "next"
+            ],
+            "guid": "tb%Z$!1IU<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "videre",
+                "further [Ger.: weitere]"
+            ],
+            "guid": "H0i>`fG&(u",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et navn",
+                "name"
+            ],
+            "guid": "Mkw]cvD{6!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ned (å skrive ned)",
+                "down [Ger.: nieder] (as in \"write down\")"
+            ],
+            "guid": "N2]@FdZvdy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L03"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en bok (pl. b<u><b>ø</b></u>ker)",
+                "book"
+            ],
+            "guid": "C=yw41}YTQ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L03",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i går",
+                "yesterday"
+            ],
+            "guid": "dSWEj4Yd$c",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L04"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å minne",
+                "to remind"
+            ],
+            "guid": "lFN]je=jO/",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L04",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et minne",
+                "memory"
+            ],
+            "guid": "sBF*DcI+w]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en tekst",
+                "a text"
+            ],
+            "guid": "j~CVI=J>f%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L05",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et band",
+                "band"
+            ],
+            "guid": "K,*95A|CO^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "band",
+                "L07"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
