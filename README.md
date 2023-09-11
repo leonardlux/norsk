@@ -27,10 +27,13 @@ And have fun xD
 I used "Basic (and reverse card)" to have engl. -> norsk and norsk -> engl. card while only having to write one. All the error corretions are also automaticly applied to both cards.
 
 I used tags for:
-    + Lessons in which they took place `L01`, `L02`, etc.
-    + kind of word: `noun`, `verb`, `adj`, `adv`, `pronoun`, `prep` (`modalverb`? dont know if this is usefull)
-    + Categories: `clothes`, `weekdays`, `expressions` feel free to add more :)
-    + I used `quest` in the cases where I dont know if the stuff is correct xD
+
++ Lessons in which they took place `L01`, `L02`, etc.
++ kind of word: `noun`, `verb`, `adj`, `adv`, `pronoun`, `prep` (`modalverb`? dont know if this is usefull)
++ Categories: `clothes`, `weekdays`, `expressions` feel free to add more :)
++ I used `quest` in the cases where I dont know if the stuff is correct xD
+    
 Other Stuff:
-    + each noun has a preposition to indicate the gender: n = et, m = en, f = ei(if the noun was in plural as a standard I added [pl.])
-    + Translation is always in englisch, but if german (or any other language) has similar words, I used these [Ger.: the similär wörd]
+
++ each noun has a preposition to indicate the gender: n = et, m = en, f = ei(if the noun was in plural as a standard I added [pl.])
++ Translation is always in englisch, but if german (or any other language) has similar words, I used these [Ger.: the similär wörd]
