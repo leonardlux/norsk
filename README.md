@@ -24,7 +24,7 @@ A but more hussel and corrections hard to make: Just post the .apkg in the group
 And have fun xD
 
 ## A few comments about my ideas with cards:
-I used "Basic (and reverse card)" to have engl. -> norsk and norsk -> engl. card while only having to write one. All the error corretions are also automaticly applied to both cards.
+I used "Basic (and reverse card)" to have `engl. -> norsk` and `norsk -> engl.` cards while only having to write one. All the error corretions are also automaticly applied to both cards.
 
 I used tags for:
 
