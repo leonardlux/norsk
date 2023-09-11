@@ -6246,6 +6246,19 @@
                 "band",
                 "L07"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et avsnitt",
+                "paragraph [Ger.: Abschnitt]"
+            ],
+            "guid": "h^4XSJ,L@q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L07",
+                "noun"
+            ]
         }
     ],
     "reviewLimit": null,
