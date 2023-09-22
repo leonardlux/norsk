@@ -1,7 +1,7 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "f8a54cd8-527c-11ee-a34b-89648beed1fd",
+    "crowdanki_uuid": "9afadd7a-5982-11ee-9607-bbd2e8f55887",
     "deck_config_uuid": "73958f7a-50d9-11ee-a345-5d5eb8024e89",
     "deck_configurations": [
         {
@@ -9,10 +9,7 @@
             "autoplay": true,
             "buryInterdayLearning": false,
             "crowdanki_uuid": "73958f7a-50d9-11ee-a345-5d5eb8024e89",
-            "desiredRetention": 0.0,
             "dyn": false,
-            "fsrsEnabled": false,
-            "fsrsWeights": [],
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -59,7 +56,7 @@
     ],
     "desc": "",
     "dyn": 0,
-    "extendNew": 1,
+    "extendNew": 0,
     "extendRev": 0,
     "media_files": [],
     "name": "Norsk",
@@ -1225,7 +1222,7 @@
             "__type__": "Note",
             "fields": [
                 "hvorfor",
-                "why/what for&nbsp;"
+                "why/what for&nbsp; [wofür]"
             ],
             "guid": "uvBt-*W-!e",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -2490,7 +2487,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "en tirsday",
+                "en tirsdag",
                 "a tuesday"
             ],
             "guid": "j3{e,*1Hqh",
@@ -2560,7 +2557,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "en sønday",
+                "en søndag",
                 "a sunday"
             ],
             "guid": "Q0&c4~T}n%",
@@ -2589,7 +2586,7 @@
             "__type__": "Note",
             "fields": [
                 "en favoritt",
-                "a favoritt"
+                "a favorit"
             ],
             "guid": "boC%<b[NR:",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -2914,7 +2911,7 @@
             "__type__": "Note",
             "fields": [
                 "du &amp; deg",
-                "you &amp; yours [du &amp; deins]"
+                "you & you; [du & dich]"
             ],
             "guid": "JJdDq$n/@U",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -2927,7 +2924,7 @@
             "__type__": "Note",
             "fields": [
                 "han &amp; ham",
-                "he &amp; him"
+                "he &amp; him [er & ihn]"
             ],
             "guid": "jQ/T]3fB^.",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -3031,7 +3028,7 @@
             "__type__": "Note",
             "fields": [
                 "ulik",
-                "different"
+                "different (unlike)"
             ],
             "guid": "e%nymWK0%u",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -3134,7 +3131,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Hvelke språk snakker [du, etc.]?",
+                "Hvilke språk snakker [du, etc.]?",
                 "Which languages do you speak? [Ger.: Welche Sprachen sprichst du?]"
             ],
             "guid": "E(UfQU_Fh+",
@@ -3291,7 +3288,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "a lese",
+                "å lese",
                 "to read [Ger.: lesen]"
             ],
             "guid": "NXSSPf0Lza",
@@ -3317,7 +3314,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "a sykel",
+                "å sykle",
                 "to cycle"
             ],
             "guid": "g7y.EWoxKv",
@@ -3356,23 +3353,10 @@
         {
             "__type__": "Note",
             "fields": [
-                "a tegne",
+                "å tegne",
                 "to draw"
             ],
             "guid": "KFY6ebP@R0",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "L03",
-                "verb"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "å renge",
-                "to calculate or to rain"
-            ],
-            "guid": "Lcgk[bHsMA",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "L03",
@@ -3447,7 +3431,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "a skrive",
+                "å skrive",
                 "to write [Ger.: schreiben]"
             ],
             "guid": "CH(5}LhV#z",
@@ -3499,7 +3483,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "å dirkke",
+                "å drikke",
                 "to drink"
             ],
             "guid": "cu<]]}}cO.",
@@ -4245,24 +4229,12 @@
             "__type__": "Note",
             "fields": [
                 "et hjem&nbsp;",
-                "the home"
+                "a home"
             ],
             "guid": "b6b$Q?F#={",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "noun"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "hjem",
-                "at home"
-            ],
-            "guid": "bc#nD7_f@(",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "adv"
             ]
         },
         {
@@ -4275,18 +4247,6 @@
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "noun"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "å kjoper",
-                "to buy"
-            ],
-            "guid": "qS{mF)ClFD",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "verb"
             ]
         },
         {
@@ -4395,6 +4355,7 @@
             "guid": "jupIlyI5t!",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
+                "L10",
                 "noun"
             ]
         },
@@ -5624,13 +5585,14 @@
         {
             "__type__": "Note",
             "fields": [
-                "å skynde",
-                "to hurry"
+                "å skynde seg",
+                "to hurry [Ger.: sich selbst beeilen]"
             ],
             "guid": "vL{Fsj|=iT",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "L05",
+                "refleksive",
                 "verb"
             ]
         },
@@ -5867,7 +5829,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "ny",
+                "ny | nytt | nye",
                 "new"
             ],
             "guid": "vD&22NaX9]",
@@ -6960,7 +6922,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "et tre",
+                "et tre [pl. træ]",
                 "tree"
             ],
             "guid": "b-H^:_jwn+",
@@ -7951,7 +7913,7 @@
             "__type__": "Note",
             "fields": [
                 "fin | fint | fine",
-                "fine"
+                "fine/nice"
             ],
             "guid": "l]miA_OiY8",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -8947,6 +8909,690 @@
             "tags": [
                 "adj",
                 "L08"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ferdig",
+                "ready"
+            ],
+            "guid": "A3?en5WnF~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en middag",
+                "dinner/midday"
+            ],
+            "guid": "oI-[y/`b+}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "halv",
+                "half"
+            ],
+            "guid": "Go$/o=c~ik",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å slutte",
+                "to stop/complete"
+            ],
+            "guid": "pWx^T&tnh#",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "inn/inne",
+                "in (movement, + \"e\" place)&nbsp;"
+            ],
+            "guid": "s/,h3:%AkQ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ut/ute",
+                "out (movement)/ outside (+\"e\" place)"
+            ],
+            "guid": "O|tfb%S-:A",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "prep"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "glad",
+                "glad/happy"
+            ],
+            "guid": "oSQ3k[u$B9",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å løpe&nbsp;",
+                "to run"
+            ],
+            "guid": "k;hSw>inT4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en lyst",
+                "lust/desire"
+            ],
+            "guid": "PWD+I9RY:1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å banke",
+                "to knock"
+            ],
+            "guid": "LWY3_6&h9.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å bygge",
+                "to build"
+            ],
+            "guid": "F9zeb1>C|H",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hage",
+                "a garden"
+            ],
+            "guid": "CwNWc+{w26",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bekvem | bekvemt | bekvemme",
+                "bequem"
+            ],
+            "guid": "x%UO^%m$T0",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "new"
+            ],
+            "guid": "b3G9ngD:n0",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rask",
+                "fast/quick/speed"
+            ],
+            "guid": "GvqkM7a*-:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å plante",
+                "to plant"
+            ],
+            "guid": "Mr_@c^PK?E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en plante",
+                "a plant"
+            ],
+            "guid": "A8)AJEs>^Q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å finne",
+                "to find/detect"
+            ],
+            "guid": "KO:T2igv7c",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rimelig",
+                "reasonable"
+            ],
+            "guid": "t$++O4|:WD",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gammel | gammelt | gamle",
+                "old"
+            ],
+            "guid": "l8?(<lyam&",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ung | ungt | unge&nbsp;",
+                "young"
+            ],
+            "guid": "xY)|lf4P|1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "skilt",
+                "divorced"
+            ],
+            "guid": "E+U7m;7}`^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "så",
+                "so/then"
+            ],
+            "guid": "g_8#[4Z!TR",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kle på seg",
+                "to dress [Ger.: sich anziehen]"
+            ],
+            "guid": "k|g[CVBJ;q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å hente",
+                "to get/fetch"
+            ],
+            "guid": "c+Y=Mq//}x",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å pusse tennene",
+                "to brush teeth"
+            ],
+            "guid": "N3[*M*b]zH",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "trøtt",
+                "tired"
+            ],
+            "guid": "rIf8R$gHZM",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å vise",
+                "to show"
+            ],
+            "guid": "e`3)m<Y;J>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å peke",
+                "to point"
+            ],
+            "guid": "LE_9WB0haY",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "i næerheten av",
+                "near&nbsp;"
+            ],
+            "guid": "fkyR}zs2-j",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "prep"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nær",
+                "near"
+            ],
+            "guid": "PywEap]/&q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en bygning",
+                "a building"
+            ],
+            "guid": "PScySmV8%{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gunstig",
+                "beneficial/favorable [Ger.: günstig]"
+            ],
+            "guid": "2Fmn)@.%=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dessverre",
+                "unfortunately"
+            ],
+            "guid": "xGsdkGoY!H",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hit&nbsp;",
+                "here"
+            ],
+            "guid": "b+I_t}Q%af",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dit",
+                "there [Ger.: dort]"
+            ],
+            "guid": "IMnz}[7I5l",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å fryse",
+                "to freeze"
+            ],
+            "guid": "LIp#uXu)|f",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å krype",
+                "to crawl<br>"
+            ],
+            "guid": "dBb$Fa<=40",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å krabbe&nbsp;",
+                "to crawl"
+            ],
+            "guid": "r?$&3*M?@j",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å huske",
+                "to remember"
+            ],
+            "guid": "D%cLfhS66Y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å ha god time",
+                "to have enough time"
+            ],
+            "guid": "s600ih.-,w",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "først",
+                "first"
+            ],
+            "guid": "MO!c*CoF:T",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å levere",
+                "to deliver/bring"
+            ],
+            "guid": "PsjiWzGZ~F",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å vaske [seg]",
+                "to wash [Ger.: sich selbst waschen]"
+            ],
+            "guid": "KM`--Pq*$8",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sminke seg",
+                "[Ger.: sich schminken]"
+            ],
+            "guid": "kA3:WTm:i~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å barbere seg",
+                "to shave [Ger.: sich rasieren]"
+            ],
+            "guid": "ilFAG3@/hC",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å sette seg&nbsp;",
+                "[Ger.: sich setzen]"
+            ],
+            "guid": "rD2T>>C-!x",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å kose seg",
+                "to cuddle [Ger.: sich selber kuscheln]"
+            ],
+            "guid": "z>JT}2<WSE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å gifte seg",
+                "to marry&nbsp;"
+            ],
+            "guid": "zn4]~a{k@@",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å grue seg",
+                "to be afraid of [Ger.: sich fürchte vor]"
+            ],
+            "guid": "Ml;L%lgu$,",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L09",
+                "refleksive",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "opp[e]",
+                "up [move/+\"e\"position]"
+            ],
+            "guid": "u{~HsSl{fK",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ned[e]",
+                "below [movement/+\"e\"position]"
+            ],
+            "guid": "cd<H*<XN&Y",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10"
             ]
         }
     ],
