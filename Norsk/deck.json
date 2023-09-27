@@ -9,7 +9,10 @@
             "autoplay": true,
             "buryInterdayLearning": false,
             "crowdanki_uuid": "73958f7a-50d9-11ee-a345-5d5eb8024e89",
+            "desiredRetention": 0.9,
             "dyn": false,
+            "fsrsEnabled": false,
+            "fsrsWeights": [],
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -35,7 +38,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 30
+                "perDay": 40
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -56,8 +59,8 @@
     ],
     "desc": "",
     "dyn": 0,
-    "extendNew": 0,
-    "extendRev": 0,
+    "extendNew": 10,
+    "extendRev": 10,
     "media_files": [],
     "name": "Norsk",
     "newLimit": null,
@@ -1618,7 +1621,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "et barn",
+                "et barn [pl. barna]",
                 "a child&nbsp;"
             ],
             "guid": "mqqks!!j=V",
@@ -1799,7 +1802,7 @@
             "__type__": "Note",
             "fields": [
                 "en vanter",
-                "glove"
+                "gloves (but knitted or crocheted)"
             ],
             "guid": "H+0(kzxaZ~",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -4181,7 +4184,7 @@
             "__type__": "Note",
             "fields": [
                 "Hvordan står det til?",
-                "How's it going?"
+                "How's it going? [Wie stets bei dir?]"
             ],
             "guid": "oh>No:&R-Q",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -4208,18 +4211,6 @@
                 "a month"
             ],
             "guid": "Gk`zv%?ybd",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "noun"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "en kaffee",
-                "a coffee"
-            ],
-            "guid": "E(jOq<|N^R",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "noun"
@@ -4277,7 +4268,7 @@
             "__type__": "Note",
             "fields": [
                 "å montere",
-                "to mount"
+                "to mount [Ger.: montieren]"
             ],
             "guid": "B9{U$#dPc}",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -4312,8 +4303,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "lys",
-                "bright"
+                "lys | lyst | lyse",
+                "light/bright"
             ],
             "guid": "FBoo1Jha$G",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -4336,7 +4327,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "andre",
+                "andre (not num.)",
                 "other [Ger.: andere]"
             ],
             "guid": "KUT|i:rwI1",
@@ -4585,7 +4576,7 @@
             "__type__": "Note",
             "fields": [
                 "litt&nbsp;",
-                "a bit"
+                "a bit/little"
             ],
             "guid": "F(PS:xB6@C",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -4637,7 +4628,9 @@
             ],
             "guid": "HTs}S|R*0S",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": []
+            "tags": [
+                "conj"
+            ]
         },
         {
             "__type__": "Note",
@@ -4751,7 +4744,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Unnshyld, hva betyr...?",
+                "Unnskyld, hva betyr...?",
                 "Excuse me, whate does ... mean?"
             ],
             "guid": "OLTO_j_w7!",
@@ -4763,7 +4756,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Det betryr...",
+                "Det betyr...",
                 "It means...."
             ],
             "guid": "faK`H)8%e5",
@@ -4910,7 +4903,7 @@
             "__type__": "Note",
             "fields": [
                 "en&nbsp;kjele",
-                "a kettle"
+                "a kettle/pot<br>"
             ],
             "guid": "m7!,o2(2z;",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -5137,7 +5130,8 @@
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "L05",
-                "noun"
+                "noun",
+                "page:50"
             ]
         },
         {
@@ -6073,19 +6067,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "å treffe&nbsp;",
-                "to meet&nbsp;"
-            ],
-            "guid": "e@bZc=Q)z}",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "L03",
-                "verb"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "neste",
                 "next"
             ],
@@ -6139,7 +6120,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "en bok (pl. b<u><b>ø</b></u>ker)",
+                "en bok&nbsp;(pl. b<u><b>ø</b></u>ker)",
                 "book"
             ],
             "guid": "C=yw41}YTQ",
@@ -6295,7 +6276,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "liten",
+                "lite | liten | små",
                 "small/littel"
             ],
             "guid": "cKq]?BNzRM",
@@ -6770,19 +6751,6 @@
                 "yogurt"
             ],
             "guid": "Mfc&*k[c@B",
-            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": [
-                "L07",
-                "noun"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "en&nbsp;croissant",
-                "croissant"
-            ],
-            "guid": "FJvf65K|]p",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "L07",
@@ -8195,7 +8163,9 @@
             ],
             "guid": "hn_m>VRI7$",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
-            "tags": []
+            "tags": [
+                "noun"
+            ]
         },
         {
             "__type__": "Note",
@@ -8642,7 +8612,7 @@
             "__type__": "Note",
             "fields": [
                 "en gang",
-                "once"
+                "once [Ger.: ein Mal]"
             ],
             "guid": "NGcX{h,2wK",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -9519,7 +9489,7 @@
             "__type__": "Note",
             "fields": [
                 "å sette seg&nbsp;",
-                "[Ger.: sich setzen]"
+                "to sit down (self) [Ger.: sich setzen]"
             ],
             "guid": "rD2T>>C-!x",
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
@@ -9593,6 +9563,1257 @@
             "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
             "tags": [
                 "L10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å spørre&nbsp;",
+                "to ask"
+            ],
+            "guid": "hq[R`?u}6%",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L01",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et ord",
+                "a word"
+            ],
+            "guid": "qZP3z1n~69",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L01",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en lekse",
+                "homework"
+            ],
+            "guid": "C~&h@n53~I",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L02",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å dra",
+                "to drive"
+            ],
+            "guid": "jjsqE8Pi[o",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L06",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en årstid",
+                "season"
+            ],
+            "guid": "n52lMaLPkE",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L07",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et kjøkkenet",
+                "kitchen"
+            ],
+            "guid": "r}qS{80*Q]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en&nbsp;venninne",
+                "friend&nbsp;"
+            ],
+            "guid": "q@vy!XoNKK",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å ha gid tid&nbsp;",
+                "to have enough time"
+            ],
+            "guid": "t,Ot37)dlc",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L10",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å levere&nbsp;",
+                "to deliver [Ger.: etwas bringen]"
+            ],
+            "guid": "B%<YqKKy#E",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hos",
+                "at"
+            ],
+            "guid": "LC!/qQ%&wr",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "prep"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å vekke",
+                "to wake (sb. up) [Ger.: wecken]"
+            ],
+            "guid": "s5tt*g_~Sa",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et bad",
+                "bath [Ger.: Bad]"
+            ],
+            "guid": "G/@{uHUe<<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en buss&nbsp;",
+                "bus"
+            ],
+            "guid": "wIj-28UCSU",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å variere",
+                "to vary"
+            ],
+            "guid": "AZ]P8U8Fqe",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en&nbsp;mulighet",
+                "possibility"
+            ],
+            "guid": "hfU${O@^~!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å formulere",
+                "to formulate"
+            ],
+            "guid": "fE*l~6A*jy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "koselig",
+                "cosy"
+            ],
+            "guid": "El7+",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en gulrot",
+                "a carrot"
+            ],
+            "guid": "soPZ)KM{b(",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en melon",
+                "a melon"
+            ],
+            "guid": "MjAm=6%$`;",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en banan",
+                "banana"
+            ],
+            "guid": "Io&9ZFC|qs",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en sitron",
+                "lemon"
+            ],
+            "guid": "P[.]ZtA$`<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en appelsin",
+                "orange"
+            ],
+            "guid": "q4p?%lrt^A",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et eple",
+                "apple"
+            ],
+            "guid": "d&k9tvzhJ^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ananas",
+                "pineapple [Ger.: Annanas]"
+            ],
+            "guid": "p$n=fsUF_i",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en nøtt",
+                "nut&nbsp;"
+            ],
+            "guid": "H%*N[.nJ=?",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et potetgull",
+                "potato chips"
+            ],
+            "guid": "p[EU*[phj4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en kake",
+                "a cake"
+            ],
+            "guid": "yI(rJ,d=gZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en&nbsp;pølse",
+                "sausage"
+            ],
+            "guid": "N!y,<(i4Ef",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en ketsjup",
+                "ketchup"
+            ],
+            "guid": "fK:p0(.8[S",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;sennep",
+                "mustard"
+            ],
+            "guid": "wERu=%TNJI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et skjærebrett",
+                "cutting board"
+            ],
+            "guid": "M<xB!n=,k!",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en bolle",
+                "a bowl"
+            ],
+            "guid": "m]W%]9FS>c",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et fat",
+                "plate (deep)"
+            ],
+            "guid": "m|DZUBM)V~",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en fersken",
+                "peach"
+            ],
+            "guid": "l5Ha0hO/hc",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;knutekål",
+                "kohlrabi"
+            ],
+            "guid": "f.trjHO^E>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fersk&nbsp;",
+                "fresh"
+            ],
+            "guid": "s1M)lb[ytF",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "grønnsaker [pl.]",
+                "vegetables"
+            ],
+            "guid": "Ci6jkb/=*@",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kinakål",
+                "[Ger.: Chinakohl]"
+            ],
+            "guid": "g[yjI.B]G>",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et knekkebrød",
+                "crispbread [Ger.: Knäckebrot]"
+            ],
+            "guid": "u6ca-z0^[<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et wienerbrød",
+                "Danish pastry (sweet with pudding in the middle)"
+            ],
+            "guid": "t;j#_xia1q",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en/ei frokostblanding",
+                "cornflakes"
+            ],
+            "guid": "f/Tv,2l]Ud",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en juice",
+                "juice"
+            ],
+            "guid": "M?*Ey?pTpc",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en saft",
+                "drink made of fruits mixed with water [Ger.: Saft]"
+            ],
+            "guid": "Ag^?bMpj8x",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en kakao",
+                "hot choclate [Ger.: Kakao]"
+            ],
+            "guid": "L@w`eWmio.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "frosne (erter)",
+                "frozen (peas)"
+            ],
+            "guid": "vCRGB<4Q>*",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en ert",
+                "a pea [Ger.: Erbse]"
+            ],
+            "guid": "yzu<Z$n?WI",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rødbete",
+                "beatroot [Ger.: beetroot]"
+            ],
+            "guid": "mCz9#&_Hp{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en løk",
+                "onion"
+            ],
+            "guid": "uCeJRD&k>W",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hvitløk",
+                "garlic"
+            ],
+            "guid": "njm)3GbLH5",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en salami",
+                "salami"
+            ],
+            "guid": "yv58>+Y1lr",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;ingefær",
+                "ginger [Ger.: Ingwer]"
+            ],
+            "guid": "hhYbb3!%yL",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;dessert",
+                "dessert"
+            ],
+            "guid": "l*est0r0jj",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en spinat",
+                "spinach [Ger.: Spinat]"
+            ],
+            "guid": "C3%:a0w|Gy",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en agurk",
+                "cucumber [Ger.: Gurke]"
+            ],
+            "guid": "wUV}Ej0]-a",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en tomat",
+                "tomato"
+            ],
+            "guid": "dp7x$GzwO4",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en paprika",
+                "parika"
+            ],
+            "guid": "i-JW/_[h)^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en salat",
+                "salad [Ger.: Salat]"
+            ],
+            "guid": "KLU!0d04,Z",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en potet",
+                "potato"
+            ],
+            "guid": "ER#fQr.RIz",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en brokkoli",
+                "broccoli [Ger.: Brokkoli]"
+            ],
+            "guid": "A+|Bd)@Yo}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;purre",
+                "leek [Ger.: Porree]"
+            ],
+            "guid": "sX##-#:9u=",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;blomkål",
+                "cauliflower [Ger.: Blumenkohl]"
+            ],
+            "guid": "tPjkSa)!Dx",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;forskjell",
+                "difference [Ger.: Verschiedenheiten]"
+            ],
+            "guid": "sC;m]VTzJK",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hansker [pl.]",
+                "gloves [Ger.: Handschuhe]"
+            ],
+            "guid": "x5>+.fPI5]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "elektrisk",
+                "electric [Ger.: elektrisch]"
+            ],
+            "guid": "Ht%@PMChC",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et&nbsp;møbel",
+                "piece of furniture [Ger.: Möbel(stück)]"
+            ],
+            "guid": "i;=Dk9{K7F",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dyr",
+                "expensive"
+            ],
+            "guid": "x-LZvc;a{B",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en blomst",
+                "a flower"
+            ],
+            "guid": "FXHF8R:Bu,",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "skiftende",
+                "changing/shifting&nbsp;"
+            ],
+            "guid": "LNI`hRq1VJ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L11"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å anbefale",
+                "to recommend [Ger.: empfehlen]"
+            ],
+            "guid": "O|Z`M{lp.p",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jeg vet ikke.",
+                "I don't know."
+            ],
+            "guid": "J|csONjhbu",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "expression",
+                "L11"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et&nbsp;landskap",
+                "landscape"
+            ],
+            "guid": "berh8w2]k?",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et&nbsp;nordlys",
+                "Northern Lights"
+            ],
+            "guid": "eBRg>(F(=k",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å si (sier)",
+                "to say&nbsp;"
+            ],
+            "guid": "JOz]2S6R!.",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "noen",
+                "somebody"
+            ],
+            "guid": "x@X):aUle<",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "pronoun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å forberede",
+                "to prepare [Ger.: vorbereiten]"
+            ],
+            "guid": "v^qf20)>X:",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en&nbsp;kanelbolle",
+                "cinamon roll [Ger.: Zimtschnecke]"
+            ],
+            "guid": "egwp=JOuz1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å låne",
+                "to borrow/lend [Ger.: leihen]"
+            ],
+            "guid": "klc8(4QE?A",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L11",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kjempebra",
+                "really good"
+            ],
+            "guid": "lntx(1NpuP",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "frisk",
+                "healthy"
+            ],
+            "guid": "j<5VZ5R!Ka",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "syk",
+                "sick"
+            ],
+            "guid": "E#grg7S)Mi",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et&nbsp;sykehus",
+                "hospital"
+            ],
+            "guid": "u}o|:0^K%^",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fornøyd",
+                "pleased"
+            ],
+            "guid": "b]DaB-.L|S",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en hodepine",
+                "headache"
+            ],
+            "guid": "qD^#K|D>O,",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en nese renner",
+                "running nose"
+            ],
+            "guid": "o&D^)8Ps],",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en hoste",
+                "a cough"
+            ],
+            "guid": "pf%vKa+}N]",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "å hoste",
+                "to cough"
+            ],
+            "guid": "IOS]l2+S@M",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "verb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en forkjølelse",
+                "a cold"
+            ],
+            "guid": "I@IKS%k;k{",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en lege",
+                "Doktor (medical)"
+            ],
+            "guid": "eO<GSpxB~-",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en pine&nbsp;",
+                "pain"
+            ],
+            "guid": "ix<NphU4xZ",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "derfor",
+                "therefore"
+            ],
+            "guid": "e-X(!p0fA}",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ei/en stund",
+                "a while [Ger.: eine Weile"
+            ],
+            "guid": "N&cEs^&(l$",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun",
+                "page:50"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "romantisk",
+                "romantic"
+            ],
+            "guid": "D+:D2yhQd1",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12",
+                "page:50"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et nett",
+                "net/network [Ger.: Netz]"
+            ],
+            "guid": "K@5sAgc2`",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun",
+                "page:50"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hel | helt | hele",
+                "complete/whole"
+            ],
+            "guid": "eD;25?Ra|(",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adj",
+                "L12",
+                "page:50"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "iallfall",
+                "in any case [Ger.: auf jeden Fall]"
+            ],
+            "guid": "oq)}v98]qA",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "adv",
+                "L12",
+                "page:50"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "et folk",
+                "people [Ger.: Volk]"
+            ],
+            "guid": "kF,0##c{;2",
+            "note_model_uuid": "7396398e-50d9-11ee-a345-5d5eb8024e89",
+            "tags": [
+                "L12",
+                "noun",
+                "page:50"
             ]
         }
     ],
